@@ -44,11 +44,12 @@ include_directories(${stb_image_SOURCE_DIR})
 
 # Lista de exemplos/exercícios podem ser colocados aqui também
 set(EXERCISES
-    Hello3D
-    TriangleTex
-    SpherePhong
-    Aula3CG
+    atividade_vivencial_GB1
     CuboIluminacao
+    Hello3D
+    Hello3DCubo
+    SpherePhong
+    TriangleTex
 )
 
 add_compile_options(-Wno-pragmas)
@@ -65,7 +66,7 @@ else()
 endif()
 
 # Caminho esperado para a GLAD
-set(GLAD_C_FILE "${CMAKE_SOURCE_DIR}/common/glad.c")
+set(GLAD_C_FILE "${CMAKE_SOURCE_DIR}/Common/glad.c")
 
 # Verifica se os arquivos da GLAD estão no lugar
 if (NOT EXISTS ${GLAD_C_FILE})
