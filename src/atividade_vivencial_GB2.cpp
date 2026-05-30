@@ -137,15 +137,15 @@ void main()
 
         // 2. Difusa (Atenuada)
         float diff = max(dot(N, L), 0.0);
-        vec3 diffuse = kd * diff * lights[i].color * attenuation;
+        vec3 diffuse = kd * diff * lights[i].color;
 
         // 3. Especular
         vec3 R = normalize(reflect(-L, N));
         float spec = max(dot(R, V), 0.0);
         spec = pow(spec, max(q, 1.0));
-        vec3 specular = ks * spec * lights[i].color; 
+        vec3 specular = ks * spec * lights[i].color;
 
-        finalLight += (ambient + diffuse) * vec3(objectColor) + specular;
+        finalLight += (ambient + (diffuse + specular) * attenuation) * vec3(objectColor);
     }
 
     color = vec4(finalLight, 1.0);
@@ -183,14 +183,14 @@ int main()
 
     // --- CARREGANDO OS MODELOS ---
     Modelo3D obj1;
-    obj1.VAO = loadSimpleOBJ("Suzanne.obj", obj1.nVertices, glm::vec3(1.0f, 1.0f, 1.0f), obj1.texID); 
+    obj1.VAO = loadSimpleOBJ("assets/Modelos3D/Suzanne.obj", obj1.nVertices, glm::vec3(1.0f, 1.0f, 1.0f), obj1.texID); 
     obj1.posicao = glm::vec3(-0.6f, 0.0f, 0.0f);
     obj1.rotacao = glm::vec3(0.0f, 0.0f, 0.0f);
     obj1.escala = glm::vec3(0.3f);
     cena.push_back(obj1);
 
     Modelo3D obj2;
-    obj2.VAO = loadSimpleOBJ("Suzanne.obj", obj2.nVertices, glm::vec3(1.0f, 1.0f, 1.0f), obj2.texID); 
+    obj2.VAO = loadSimpleOBJ("assets/Modelos3D/Suzanne.obj", obj2.nVertices, glm::vec3(1.0f, 1.0f, 1.0f), obj2.texID); 
     obj2.posicao = glm::vec3(0.6f, 0.0f, 0.0f);
     obj2.rotacao = glm::vec3(0.0f, 0.0f, 0.0f);
     obj2.escala = glm::vec3(0.3f);
@@ -218,19 +218,19 @@ int main()
 
         // --- LUZES DE 3 PONTOS (INTENSIDADES AJUSTADAS) ---
         // 1. Key Light (Principal) - Levemente reduzida para não estourar
-        glm::vec3 keyPos = basePos + glm::vec3(2.0f, 2.0f, 2.0f);
+        glm::vec3 keyPos  = glm::vec3(2.0f, 2.0f, 2.0f);
         glUniform3fv(glGetUniformLocation(shaderID, "lights[0].position"), 1, glm::value_ptr(keyPos));
         glUniform3f(glGetUniformLocation(shaderID, "lights[0].color"), 0.8f, 0.8f, 0.8f);
         glUniform1i(glGetUniformLocation(shaderID, "lights[0].enabled"), keyLightOn);
 
         // 2. Fill Light (Preenchimento)
-        glm::vec3 fillPos = basePos + glm::vec3(-2.0f, 1.0f, 2.0f);
+        glm::vec3 fillPos = glm::vec3(-2.0f, 1.0f, 2.0f);
         glUniform3fv(glGetUniformLocation(shaderID, "lights[1].position"), 1, glm::value_ptr(fillPos));
         glUniform3f(glGetUniformLocation(shaderID, "lights[1].color"), 0.3f, 0.3f, 0.4f); 
         glUniform1i(glGetUniformLocation(shaderID, "lights[1].enabled"), fillLightOn);
 
         // 3. Back Light (Fundo)
-        glm::vec3 backPos = basePos + glm::vec3(0.0f, 2.0f, -3.0f);
+        glm::vec3 backPos = glm::vec3(0.0f, 2.0f, -3.0f);
         glUniform3fv(glGetUniformLocation(shaderID, "lights[2].position"), 1, glm::value_ptr(backPos));
         glUniform3f(glGetUniformLocation(shaderID, "lights[2].color"), 0.6f, 0.6f, 0.6f);
         glUniform1i(glGetUniformLocation(shaderID, "lights[2].enabled"), backLightOn);
