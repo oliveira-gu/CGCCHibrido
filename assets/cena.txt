@@ -1,3 +1,31 @@
-camera 0.0 0.0 3.0
-luz 2.0 2.0 2.0 0.8 0.8 0.8
-objeto ../assets/Modelos3D/Suzanne.obj 0.0 0.0 0.0 0.0 0.0 0.0 0.5 0
+camera 0.0 3.0 6.0
+luz 3.0 5.0 3.0 1.0 1.0 1.0
+
+# =========================================================
+# CAMADA 0: O ÚNICO BLOCO DE BASE (Y = 0)
+# (Pedra Lisa: Coluna 1, Linha 0)
+# =========================================================
+objeto ../assets/Modelos3D/Grass_block.obj 1 0  0.0 0.0  0.0 0.0 0.0 0.0 1.0 0
+
+# =========================================================
+# CAMADAS SUPERIORES: PORTAL DO NETHER (Y >= 1)
+# (Obsidiana Real: Coluna 5, Linha 2)
+# Centralizado em X = 0.0 e alinhado no mesmo plano Z = 0.0
+# =========================================================
+# Base do portal (Y = 1) - Apoiada direto no bloco de pedra
+objeto ../assets/Modelos3D/Grass_block.obj 5 2 -1.0 1.0  0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 2  0.0 1.0  0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 2  1.0 1.0  0.0 0.0 0.0 0.0 1.0 0
+
+# Pilares laterais inferiores (Y = 2)
+objeto ../assets/Modelos3D/Grass_block.obj 5 2 -1.0 2.0  0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 2  1.0 2.0  0.0 0.0 0.0 0.0 1.0 0
+
+# Pilares laterais superiores (Y = 3)
+objeto ../assets/Modelos3D/Grass_block.obj 5 2 -1.0 3.0  0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 2  1.0 3.0  0.0 0.0 0.0 0.0 1.0 0
+
+# Topo do portal fechando o arco (Y = 4)
+objeto ../assets/Modelos3D/Grass_block.obj 5 2 -1.0 4.0  0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 2  0.0 4.0  0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 2  1.0 4.0  0.0 0.0 0.0 0.0 1.0 0

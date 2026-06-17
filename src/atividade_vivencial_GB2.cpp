@@ -183,14 +183,14 @@ int main()
 
     // --- CARREGANDO OS MODELOS ---
     Modelo3D obj1;
-    obj1.VAO = loadSimpleOBJ("assets/Modelos3D/Suzanne.obj", obj1.nVertices, glm::vec3(1.0f, 1.0f, 1.0f), obj1.texID); 
+    obj1.VAO = loadSimpleOBJ("../assets/Modelos3D/Grass_block.obj", obj1.nVertices, glm::vec3(1.0f, 1.0f, 1.0f), obj1.texID); 
     obj1.posicao = glm::vec3(-0.6f, 0.0f, 0.0f);
     obj1.rotacao = glm::vec3(0.0f, 0.0f, 0.0f);
     obj1.escala = glm::vec3(0.3f);
     cena.push_back(obj1);
 
     Modelo3D obj2;
-    obj2.VAO = loadSimpleOBJ("assets/Modelos3D/Suzanne.obj", obj2.nVertices, glm::vec3(1.0f, 1.0f, 1.0f), obj2.texID); 
+    obj2.VAO = loadSimpleOBJ("../assets/Modelos3D/Grass_block.obj", obj2.nVertices, glm::vec3(1.0f, 1.0f, 1.0f), obj2.texID); 
     obj2.posicao = glm::vec3(0.6f, 0.0f, 0.0f);
     obj2.rotacao = glm::vec3(0.0f, 0.0f, 0.0f);
     obj2.escala = glm::vec3(0.3f);

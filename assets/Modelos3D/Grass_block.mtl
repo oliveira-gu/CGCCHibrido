@@ -1,0 +1,56 @@
+# Blender 4.0.2 MTL File: 'minecraft.blend'
+# Todas as texturas unificadas no seu Texture Atlas global
+
+newmtl Material.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+map_Kd ../assets/Modelos3D/All_blocks.png
+
+newmtl Material.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+map_Kd ../assets/Modelos3D/All_blocks.png
+
+newmtl Material.003
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+map_Kd ../assets/Modelos3D/All_blocks.png
+
+newmtl Material.011
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+map_Kd ../assets/Modelos3D/All_blocks.png
+
+newmtl Material.016
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+map_Kd ../assets/Modelos3D/All_blocks.png
+
+newmtl Material.019
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+map_Kd ../assets/Modelos3D/All_blocks.png
+
+newmtl Material.022
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+map_Kd ../assets/Modelos3D/All_blocks.png
+
+newmtl Material.041
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+map_Kd ../assets/Modelos3D/All_blocks.png
+
+newmtl Material.050
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+map_Kd ../assets/Modelos3D/All_blocks.png
