@@ -393,10 +393,10 @@ GLuint loadTexture(string filePath)
     glBindTexture(GL_TEXTURE_2D, texID); 
 
     // Configurações ideais para Pixel Art do Minecraft (Sem borrar os blocos)
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT); 
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT); 
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST_MIPMAP_NEAREST); 
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST); 
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE); 
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE); 
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST); 
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
 
     int width, height, nrChannels;
     stbi_set_flip_vertically_on_load(true); // Minecraft costuma precisar de true para alinhar as coordenadas verticais
@@ -512,17 +512,20 @@ int loadSimpleOBJ(string filePATH, int &nVertices, glm::vec3 baseColor, GLuint &
                     if (v_original < 0.0f) v_original = 0.0f;
                                 
                     // --- RECUO DE SEGURANÇA PARA EVITAR VAZAMENTO (INSET) ---
-                    // Encolhemos levemente a amostragem em 0.5% para não encostar na borda do bloco vizinho
-                    float margem = 0.005f; 
+                    // Aumentamos levemente para 1% (0.01f) se o sangramento de pixel persistir
+                    float margem = 0.01f; 
                     float u_ajustado = margem + (u_original * (1.0f - 2.0f * margem));
                     float v_ajustado = margem + (v_original * (1.0f - 2.0f * margem));
                                 
+                    // Micro-deslocamento opcional para centralizar perfeitamente no pixel bruto (ajuste se necessário)
+                    float epsilon = 0.000f; 
+                                
                     // Ajuste horizontal (U) baseado no valor corrigido
-                    float s_novo = (col * deltaU) + (u_ajustado * deltaU);
+                    float s_novo = (col * deltaU) + (u_ajustado * deltaU) + epsilon;
                                 
                     // Ajuste vertical (V)
                     float v_invertido = (TOTAL_LINHAS - 1.0f) - row;
-                    float t_novo = (v_invertido * deltaV) + (v_ajustado * deltaV);
+                    float t_novo = (v_invertido * deltaV) + (v_ajustado * deltaV) + epsilon;
                                 
                     vBuffer.push_back(s_novo);
                     vBuffer.push_back(t_novo);
