@@ -1,0 +1,245 @@
+camera 15.0 35.0 70.0
+luz 20.0 40.0 20.0 1.0 1.0 1.0
+
+# =========================================================
+# CATALOGO COMPLETO DO TEXTURE ATLAS All_blocks.png
+# TOTAL_COLUNAS = 16
+# TOTAL_LINHAS = 55
+# X = coluna do atlas
+# Z = linha do atlas
+# =========================================================
+
+# ==================== LINHA 0 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 0 2.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 0 4.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 0 6.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 0 8.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 0 10.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 0 12.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 0 14.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 0 16.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 0 18.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 0 20.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 0 22.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 0 24.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 0 26.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 0 28.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 0 30.0 0.0 0.0 0.0 0.0 0.0 1.0 0
+
+# ==================== LINHA 1 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 1 0.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 1 2.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 1 4.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 1 6.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 1 8.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 1 10.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 1 12.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 1 14.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 1 16.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 1 18.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 1 20.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 1 22.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 1 24.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 1 26.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 1 28.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 1 30.0 0.0 -2.0 0.0 0.0 0.0 1.0 0
+
+# ==================== LINHA 2 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 2 0.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 2 2.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 2 4.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 2 6.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 2 8.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 2 10.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 2 12.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 2 14.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 2 16.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 2 18.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 2 20.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 2 22.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 2 24.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 2 26.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 2 28.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 2 30.0 0.0 -4.0 0.0 0.0 0.0 1.0 0
+
+# ==================== LINHA 3 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 3 0.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 3 2.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 3 4.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 3 6.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 3 8.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 3 10.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 3 12.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 3 14.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 3 16.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 3 18.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 3 20.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 3 22.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 3 24.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 3 26.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 3 28.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 3 30.0 0.0 -6.0 0.0 0.0 0.0 1.0 0
+
+# ==================== LINHA 4 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 4 0.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 4 2.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 4 4.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 4 6.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 4 8.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 4 10.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 4 12.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 4 14.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 4 16.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 4 18.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 4 20.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 4 22.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 4 24.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 4 26.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 4 28.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 4 30.0 0.0 -8.0 0.0 0.0 0.0 1.0 0
+
+# ==================== LINHA 5 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 5 0.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 5 2.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 5 4.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 5 6.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 5 8.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 5 10.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 5 12.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 5 14.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 5 16.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 5 18.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 5 20.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 5 22.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 5 24.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 5 26.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 5 28.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 5 30.0 0.0 -10.0 0.0 0.0 0.0 1.0 0
+
+# ==================== LINHA 6 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 6 0.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 6 2.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 6 4.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 6 6.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 6 8.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 6 10.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 6 12.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 6 14.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 6 16.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 6 18.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 6 20.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 6 22.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 6 24.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 6 26.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 6 28.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 6 30.0 0.0 -12.0 0.0 0.0 0.0 1.0 0
+
+# ==================== LINHA 7 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 7 0.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 7 2.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 7 4.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 7 6.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 7 8.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 7 10.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 7 12.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 7 14.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 7 16.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 7 18.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 7 20.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 7 22.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 7 24.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 7 26.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 7 28.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 7 30.0 0.0 -14.0 0.0 0.0 0.0 1.0 0
+
+# ==================== LINHA 8 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 8 0.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 8 2.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 8 4.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 8 6.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 8 8.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 8 10.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 8 12.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 8 14.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 8 16.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 8 18.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 8 20.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 8 22.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 8 24.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 8 26.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 8 28.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 8 30.0 0.0 -16.0 0.0 0.0 0.0 1.0 0
+
+# ==================== LINHA 9 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 9 0.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 9 2.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 9 4.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 9 6.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 9 8.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 9 10.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 9 12.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 9 14.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 9 16.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 9 18.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 9 20.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 9 22.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 9 24.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 9 26.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 9 28.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 9 30.0 0.0 -18.0 0.0 0.0 0.0 1.0 0
+
+# ==================== LINHA 10 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 10 0.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 10 2.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 10 4.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 10 6.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 10 8.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 10 10.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 10 12.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 10 14.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 10 16.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 10 18.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 10 20.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 10 22.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 10 24.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 10 26.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 10 28.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 10 30.0 0.0 -20.0 0.0 0.0 0.0 1.0 0
+
+# ==================== LINHA 11 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 11 0.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 11 2.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 11 4.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 11 6.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 11 8.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 11 10.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 11 12.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 11 14.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 11 16.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 11 18.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 11 20.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 11 22.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 11 24.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 11 26.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 11 28.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 11 30.0 0.0 -22.0 0.0 0.0 0.0 1.0 0
+
+# ==================== LINHA 12 ====================
+objeto ../assets/Modelos3D/Grass_block.obj 0 12 0.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 1 12 2.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 2 12 4.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 3 12 6.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 4 12 8.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 5 12 10.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 6 12 12.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 7 12 14.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 8 12 16.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 9 12 18.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 10 12 20.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 11 12 22.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 12 12 24.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 13 12 26.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 14 12 28.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+objeto ../assets/Modelos3D/Grass_block.obj 15 12 30.0 0.0 -24.0 0.0 0.0 0.0 1.0 0
+

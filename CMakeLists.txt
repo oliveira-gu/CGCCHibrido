@@ -45,6 +45,7 @@ include_directories(${stb_image_SOURCE_DIR})
 # Lista de exemplos/exercícios podem ser colocados aqui também
 set(EXERCISES
     integracao_grauB
+    integracaoTeste_GB
     atividade_vivencial_GB1
     atividade_vivencial_GB2
     CuboIluminacao

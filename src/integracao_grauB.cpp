@@ -505,28 +505,28 @@ int loadSimpleOBJ(string filePATH, int &nVertices, glm::vec3 baseColor, GLuint &
                 if (!texCoords.empty() && ti >= 0 && ti < texCoords.size()) {
                     float u_original = texCoords[ti].s;
                     float v_original = texCoords[ti].t;
-                                
+
                     if (u_original > 1.0f) u_original = 1.0f;
                     if (u_original < 0.0f) u_original = 0.0f;
                     if (v_original > 1.0f) v_original = 1.0f;
                     if (v_original < 0.0f) v_original = 0.0f;
-                                
+
                     // --- RECUO DE SEGURANÇA PARA EVITAR VAZAMENTO (INSET) ---
                     // Aumentamos levemente para 1% (0.01f) se o sangramento de pixel persistir
                     float margem = 0.01f; 
                     float u_ajustado = margem + (u_original * (1.0f - 2.0f * margem));
                     float v_ajustado = margem + (v_original * (1.0f - 2.0f * margem));
-                                
+
                     // Micro-deslocamento opcional para centralizar perfeitamente no pixel bruto (ajuste se necessário)
                     float epsilon = 0.000f; 
-                                
+
                     // Ajuste horizontal (U) baseado no valor corrigido
                     float s_novo = (col * deltaU) + (u_ajustado * deltaU) + epsilon;
-                                
+
                     // Ajuste vertical (V)
                     float v_invertido = (TOTAL_LINHAS - 1.0f) - row;
                     float t_novo = (v_invertido * deltaV) + (v_ajustado * deltaV) + epsilon;
-                                
+
                     vBuffer.push_back(s_novo);
                     vBuffer.push_back(t_novo);
                 } else {
